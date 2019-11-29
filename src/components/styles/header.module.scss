@@ -1,0 +1,32 @@
+.header {
+  padding: 1rem 0 3rem;
+}
+
+//7159c1
+
+.title {
+  color: #7159c1;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  border-bottom: 2px #7159c1 dashed;
+}
+
+.nav-item {
+  font-size: 0.9rem;
+  margin-right: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #ecebf1;
+}
+.nav-item:hover {
+  color: #a692e7;
+}
+.active-nav-item {
+  color: #7159c1;
+}
